@@ -25,6 +25,12 @@ public class Banquero {
         this.apellidos = apellidos;
         this.dni = dni;
     }
+
+    @Override
+    public String toString() {
+        return "Banquero{" + "nombre=" + nombre + ", apellidos=" + apellidos + ", dni=" + dni + '}';
+    }
+    
     
     
 }
