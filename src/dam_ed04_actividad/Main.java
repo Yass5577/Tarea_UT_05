@@ -9,6 +9,11 @@ package dam_ed04_actividad;
 public class Main {
 
     public static void main(String[] args) {
+        operativa_cuenta();
+    }
+    
+    
+    private static void operativa_cuenta(){
         CCuenta cuenta1;
         double saldoActual;
 
